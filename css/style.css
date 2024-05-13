@@ -160,8 +160,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
 .hyr_page_container {
   display: block;
   width: 100%;
@@ -938,6 +936,9 @@ body {
   text-align: center;
   gap: 0.75rem;
 }
+.only__web_view {
+  display: flex;
+}
 @media screen and (max-width: 1024px) {
   .Feature__banner {
     width: 3.5rem;
@@ -974,6 +975,9 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: flex-start;
     gap: 3rem;
+  }
+  .only__web_view {
+    display: none;
   }
 }
 
