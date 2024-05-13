@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HYR | Book Your Perfect Ride</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS Lib -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="hyr_Header">
+      <div class="hyr_page_container">
+        <div class="hyr_Header__Nav">
+          <figure class="hyr_brand_logo">
+            <a href="index.html"
+              ><h1 class="hyr_brand_logo_header">HYR Cabs</h1></a
+            >
+          </figure>
+          <ul class="hyr_Header__Menu">
+            <li class="hyr_Header__MenuItem">
+              <a href="#" class="hyr_Header__MenuLink"
+                ><i class="fa-solid fa-bus-simple"></i> BusRyde
+              </a>
+            </li>
+            <li class="hyr_Header__MenuItem">
+              <a href="#" class="hyr_Header__MenuLink">
+                <i class="fa-solid fa-plane-departure"></i>Tourskart
+              </a>
+            </li>
+          </ul>
+          <div class="hyr_menu__icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Showcase Section -->
+    <section class="Showcase">
+      <div class="hyr_page_container">
+        <div class="Showcase__section">
+          <div class="Showcase__content_wrapper">
+            <div class="Showcase__title_space" data-aos="zoom-in">
+              <h2 class="showcase__subtitle_fs">Book Your Perfect Ride</h2>
+              <h1 class="showcase__title_fs">Enjoy your travel</h1>
+            </div>
+            <div class="Showcase__main_form" data-aos="fade-up">
+              <div class="SearchForm">
+                <div class="SearchForm__header">
+                  <div class="SearchForm__header_tab">
+                    <img src="./assets/icons/others/car.svg" alt="car" />
+                    <span>One Way Trip</span>
+                  </div>
+                  <div class="SearchForm__header_tab active">
+                    <img src="./assets/icons/others/car.svg" alt="car" />
+                    <span>Round Trip</span>
+                  </div>
+                </div>
+
+                <div class="SearchForm__container">
+                  <div class="SearchForm__body">
+                    <div class="SearchForm__body_row">
+                      <div class="SearchForm__column">
+                        <p class="form_label">From</p>
+                        <input
+                          type="text"
+                          placeholder="Where to pick you?"
+                          class="form_input"
+                        />
+                      </div>
+                      <div class="SearchForm__column">
+                        <p class="form_label">Destinations</p>
+                        <input
+                          type="text"
+                          placeholder="Where are you going?"
+                          class="form_input"
+                        />
+                      </div>
+                      <!-- Use "single_column" for oneway trip & "two_column" for round trip -->
+                      <div class="SearchForm__column_wrapper two_column">
+                        <div class="SearchForm__column">
+                          <p class="form_label">Pickup Date</p>
+                          <input
+                            type="date"
+                            placeholder="Choose Dates"
+                            class="form_input"
+                          />
+                        </div>
+                        <div class="SearchForm__column round_trip_field">
+                          <p class="form_label">Return Date</p>
+                          <input
+                            type="date"
+                            placeholder="Choose Dates"
+                            class="form_input"
+                          />
+                        </div>
+                      </div>
+                      <div class="SearchForm__column">
+                        <p class="form_label">Pickup Time</p>
+                        <input
+                          type="time"
+                          placeholder="Where to pick you?"
+                          class="form_input"
+                        />
+                      </div>
+
+                      <div class="SearchForm__column">
+                        <p class="form_label">Name</p>
+                        <input
+                          type="text"
+                          placeholder="Your Fullname"
+                          class="form_input"
+                        />
+                      </div>
+                      <div class="SearchForm__column">
+                        <p class="form_label">Mobile Number</p>
+                        <input
+                          type="text"
+                          placeholder="Get connect with us"
+                          class="form_input"
+                        />
+                      </div>
+                    </div>
+                    <div class="SearchForm__body_action">
+                      <button class="SearchForm__btn">
+                        <img
+                          src="./assets/icons/others/search.svg"
+                          alt="search"
+                        />
+                        <span>Search</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="Features hyr_section_top_space hyr_section_bottom_space">
+      <div class="hyr_page_container">
+        <div class="Features__section container_wrapper">
+          <div class="section__title center_align" data-aos="fade-in">
+            <div class="section__title_label">
+              <span>Our Features & Benefits</span>
+            </div>
+            <h1 class="section__title_fs">
+              HYR, the Brand that Stands a Class Apart
+            </h1>
+          </div>
+          <div class="Feature__list">
+            <div class="Feature__card" data-aos="fade-up" data-aos-offset="0">
+              <div class="Feature__banner">
+                <img
+                  src="./assets/icons/features/pan_india.svg"
+                  alt="Pan India"
+                />
+              </div>
+              <div class="Feature__content">
+                <h1 class="typo__body_fs">Pan - India Presence</h1>
+                <p class="typo__note_fs">
+                  Select your pick up date and time to book your car
+                </p>
+              </div>
+            </div>
+            <div class="Feature__card" data-aos="fade-up" data-aos-offset="75">
+              <div class="Feature__banner">
+                <img
+                  src="./assets/icons/features/tracking.svg"
+                  alt="Pan India"
+                />
+              </div>
+              <div class="Feature__content">
+                <h1 class="typo__body_fs">Live Tracking</h1>
+                <p class="typo__note_fs">Choose your and find your best car</p>
+              </div>
+            </div>
+            <div class="Feature__card" data-aos="fade-up" data-aos-offset="125">
+              <div class="Feature__banner">
+                <img src="./assets/icons/features/fares.svg" alt="Pan India" />
+              </div>
+              <div class="Feature__content">
+                <h1 class="typo__body_fs">Best Cab Fares</h1>
+                <p class="typo__note_fs">
+                  Book your car and we will deliver it directly to you
+                </p>
+              </div>
+            </div>
+            <div class="Feature__card" data-aos="fade-up" data-aos-offset="150">
+              <div class="Feature__banner">
+                <img
+                  src="./assets/icons/features/booking.svg"
+                  alt="Pan India"
+                />
+              </div>
+              <div class="Feature__content">
+                <h1 class="typo__body_fs">Ease of Booking</h1>
+                <p class="typo__note_fs">
+                  Easy booking and proper service available
+                </p>
+              </div>
+            </div>
+            <div class="Feature__card" data-aos="fade-up" data-aos-offset="200">
+              <div class="Feature__banner">
+                <img src="./assets/icons/features/chat.svg" alt="Pan India" />
+              </div>
+              <div class="Feature__content">
+                <h1 class="typo__body_fs">24/7 Support</h1>
+                <p class="typo__note_fs">
+                  Select your pick up date and time to book your car
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Analytics Section -->
+    <!-- <marquee
+      direction="right"
+      scrollamount="20"
+      behavior="scroll"
+      class="Analytics"
+    >
+      <div class="hyr_page_container">
+        <div class="Analytics__section">
+          <div class="Analytics__list">
+            <div class="Analytics__card">
+              <div class="Analytics__content">
+                <h1 class="Analytics__number">28 <span>+</span></h1>
+                <p class="Analytics__Info">States Covered</p>
+              </div>
+            </div>
+            <div class="Analytics__card">
+              <div class="Analytics__content">
+                <h1 class="Analytics__number">1000 <span>+</span></h1>
+                <p class="Analytics__Info">Cities Covered</p>
+              </div>
+            </div>
+            <div class="Analytics__card">
+              <div class="Analytics__content">
+                <h1 class="Analytics__number">1 Lakh <span>+</span></h1>
+                <p class="Analytics__Info">Trips Booked</p>
+              </div>
+            </div>
+            <div class="Analytics__card">
+              <div class="Analytics__content">
+                <h1 class="Analytics__number">15 K <span>+</span></h1>
+                <p class="Analytics__Info">Trusted Peoples</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </marquee> -->
+
+    <section class="partner_section">
+      <div class="hyr_page_container">
+        <div class="partner_slider_wrapper">
+          <div class="partner_slider">
+            <div class="partner">
+              <div class="Analytics__card">
+                <div class="Analytics__content">
+                  <h1 class="Analytics__number">28 <span>+</span></h1>
+                  <p class="Analytics__Info">States Covered</p>
+                </div>
+              </div>
+              <div class="Analytics__card">
+                <div class="Analytics__content">
+                  <h1 class="Analytics__number">1000 <span>+</span></h1>
+                  <p class="Analytics__Info">Cities Covered</p>
+                </div>
+              </div>
+              <div class="Analytics__card">
+                <div class="Analytics__content">
+                  <h1 class="Analytics__number">1 Lakh <span>+</span></h1>
+                  <p class="Analytics__Info">Trips Booked</p>
+                </div>
+              </div>
+              <div class="Analytics__card">
+                <div class="Analytics__content">
+                  <h1 class="Analytics__number">15 K <span>+</span></h1>
+                  <p class="Analytics__Info">Trusted Peoples</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="partner">
+              <div class="Analytics__card">
+                <div class="Analytics__content">
+                  <h1 class="Analytics__number">28 <span>+</span></h1>
+                  <p class="Analytics__Info">States Covered</p>
+                </div>
+              </div>
+              <div class="Analytics__card">
+                <div class="Analytics__content">
+                  <h1 class="Analytics__number">1000 <span>+</span></h1>
+                  <p class="Analytics__Info">Cities Covered</p>
+                </div>
+              </div>
+              <div class="Analytics__card">
+                <div class="Analytics__content">
+                  <h1 class="Analytics__number">1 Lakh <span>+</span></h1>
+                  <p class="Analytics__Info">Trips Booked</p>
+                </div>
+              </div>
+              <div class="Analytics__card">
+                <div class="Analytics__content">
+                  <h1 class="Analytics__number">15 K <span>+</span></h1>
+                  <p class="Analytics__Info">Trusted Peoples</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section class="Downloads hyr_section_top_space">
+      <img
+        class="Bg__shape_image"
+        src="./assets/images/services/bg_shape.png"
+        alt="BG Shape"
+      />
+      <div class="hyr_page_container">
+        <div class="Downloads__section">
+          <div class="Downloads__grid_layout">
+            <article class="Downloads__content">
+              <div
+                class="Downloads__content_wrapper"
+                data-aos="fade-right"
+                data-aos-offset="0"
+              >
+                <div class="Downloads_label">
+                  <article class="section__title_label">
+                    <span>Get Our Application</span>
+                  </article>
+                </div>
+
+                <h1 class="Downloads__title_fs">
+                  Download HYR Cabs App for <span>FREE</span>
+                </h1>
+
+                <p class="Downloads__body_fs">
+                  For faster, easier booking and exclusive deals.
+                </p>
+
+                <div class="Downloads__stores">
+                  <a href="#" class="Downloads__store_link"
+                    ><img
+                      src="./assets/images/downloads/android.svg"
+                      alt="Store"
+                    />
+                  </a>
+                  <a href="#" class="Downloads__store_link"
+                    ><img
+                      src="./assets/images/downloads/apple.svg"
+                      alt="Store"
+                    />
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article
+              class="Downloads__image"
+              data-aos="fade-up"
+              data-aos-offset="200"
+            >
+              <div class="Downloads__mobile_mockup">
+                <img
+                  src="./assets/images/downloads/phone_mockup.png"
+                  alt="Phone"
+                />
+                <img
+                  class="qr_code_image"
+                  src="./assets/images/downloads/qr_code.jpg"
+                  alt="Code"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="Services hyr_section_top_space hyr_section_bottom_space">
+      <div class="hyr_page_container">
+        <div class="Services__section">
+          <div>
+            <img
+              class="car__showcase_image"
+              src="./assets/images/services/car_showcase.png"
+              alt="Car"
+              data-aos="fade-right"
+            />
+          </div>
+
+          <div class="Services__grid_layout">
+            <article class="Services__image"></article>
+            <article class="Services__content">
+              <div class="Services__content_wrapper">
+                <div class="section__title" data-aos="fade-in">
+                  <div class="Downloads_label">
+                    <article class="section__title_label">
+                      <span>Services we Offer</span>
+                    </article>
+                  </div>
+                  <h1 class="section__title_fs">
+                    We offer the best experience with our HYR deals
+                  </h1>
+                </div>
+
+                <div class="Services__list">
+                  <div
+                    class="Services_card"
+                    data-aos="fade-left"
+                    data-aos-offset="0"
+                  >
+                    <div class="Services__banner">
+                      <i class="fa-solid fa-right-left"></i>
+                    </div>
+                    <div class="Services__content">
+                      <h1 class="typo__subheading_fs">
+                        Cabs for Daily Transfers
+                      </h1>
+                      <p class="typo__message_fs">
+                        Book Local Cabs within the city for your Day to Day
+                        Travel.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="Services_card"
+                    data-aos="fade-left"
+                    data-aos-offset="70"
+                  >
+                    <div class="Services__banner">
+                      <i class="fa-solid fa-route"></i>
+                    </div>
+                    <div class="Services__content">
+                      <h1 class="typo__subheading_fs">
+                        Outstation One way & Round Trips
+                      </h1>
+                      <p class="typo__message_fs">
+                        Hire cabs for One way Drops, Round Trips, Multiple
+                        routes & Multiple Days.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="Services_card"
+                    data-aos="fade-left"
+                    data-aos-offset="140"
+                  >
+                    <div class="Services__banner">
+                      <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div class="Services__content">
+                      <h1 class="typo__subheading_fs">Hourly Rentals</h1>
+                      <p class="typo__message_fs">
+                        Hire Vehicles for Hourly Rentals anywhere within the
+                        city.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="Services_card"
+                    data-aos="fade-left"
+                    data-aos-offset="160"
+                  >
+                    <div class="Services__banner">
+                      <i class="fa-solid fa-bus-simple"></i>
+                    </div>
+                    <div class="Services__content">
+                      <h1 class="typo__subheading_fs">
+                        Traveller & Bus Rentals
+                      </h1>
+                      <p class="typo__message_fs">
+                        Book Tempo Travellers & Buses for Rent for a Larger
+                        Group of members
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="Offers hyr_section_top_space hyr_section_bottom_space">
+      <div class="hyr_page_container">
+        <div class="Offers__section">
+          <div class="Offers__content_wrapper">
+            <h1 class="Downloads__title_fs mi_white" data-aos="fade-up">
+              Let’s make your next Travel amazing with our Offers
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="Testimonial hyr_section_top_space hyr_section_bottom_space">
+      <div class="hyr_page_container">
+        <div class="Testimonial__section">
+          <div class="Testimonial__grid_layout">
+            <article class="Testimonial__grid_area" data-aos="fade-right">
+              <div class="Downloads__content_wrapper">
+                <div class="Downloads_label">
+                  <article class="section__title_label">
+                    <span>Testimonial</span>
+                  </article>
+                </div>
+                <h1 class="Downloads__title_fs">What Our Client Say’s</h1>
+                <p class="typo__message_fs">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews.Iterative
+                </p>
+              </div>
+            </article>
+            <article class="Testimonial__reviews">
+              <div class="Testimonial__reviews_card" data-aos="fade-up">
+                <div class="reviews_card__profile">
+                  <div class="reviews_card__banner tone1"><h1>N</h1></div>
+                  <div class="reviews_card__info">
+                    <h1 class="typo__subheading_fs">Nattasha Kelvin</h1>
+                  </div>
+                </div>
+                <p class="typo__review_fs">
+                  “ dd an excerpt from your personal biography, or simply let
+                  the world know who you are and what you have to offer. Connect
+                  with your site visitor’s on a personal level and make sure
+                  that your site."
+                </p>
+              </div>
+              <div class="Testimonial__reviews_card" data-aos="fade-up">
+                <div class="reviews_card__profile">
+                  <div class="reviews_card__banner tone2"><h1>C</h1></div>
+                  <div class="reviews_card__info">
+                    <h1 class="typo__subheading_fs">Cincinnati</h1>
+                  </div>
+                </div>
+                <p class="typo__review_fs">
+                  “ Leverage agile frameworks to provide a robust synopsis for
+                  high level overviews., or simply let the world know who you
+                  are and what you have to offer. Connect with your site
+                  visitor’s on a personal level and make sure that your site. "
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="Footer">
+      <div class="hyr_page_container">
+        <div class="Footer__section">
+          <div class="Footer__grid_layout">
+            <article class="Footer__branding">
+              <h1 class="HYR__brand_logo">HYR Cabs</h1>
+              <div class="Footer__branding_info">
+                <div class="grid_card">
+                  <img
+                    src="./assets/icons/footer/address.svg"
+                    alt="footer_icon"
+                  />
+                  <p class="footer__body_fs">
+                    1A, NO.143, DR. M.G.R.Road, RMZ, MILLENIA BUSINESS PARK,
+                    Perungudi, Chennai 600 096
+                  </p>
+                </div>
+
+                <div class="grid_card">
+                  <img
+                    src="./assets/icons/footer/email.svg"
+                    alt="footer_icon"
+                  />
+                  <p class="footer__body_fs">hyrtechnologies@gmail.com</p>
+                </div>
+
+                <div class="grid_card">
+                  <img
+                    src="./assets/icons/footer/phone.svg"
+                    alt="footer_icon"
+                  />
+                  <p class="footer__body_fs">+91 866 029 2020</p>
+                </div>
+              </div>
+            </article>
+            <article class="Footer__actions">
+              <div class="Footer__menu">
+                <h1 class="footer__heading_fs">Our Company</h1>
+                <div class="Footer__links">
+                  <p class="footer__link_fs">About Us</p>
+                  <p class="footer__link_fs">Career</p>
+                  <p class="footer__link_fs">Downloads</p>
+                  <p class="footer__link_fs">Features</p>
+                  <p class="footer__link_fs">Contact Us</p>
+                </div>
+              </div>
+              <div class="Footer__menu">
+                <h1 class="footer__heading_fs">Resources</h1>
+                <div class="Footer__links">
+                  <a href="#" class="footer__link_fs">Cab Booking API</a>
+                  <a href="#" class="footer__link_fs">B2B Cab Bookings</a>
+                  <a href="#" class="footer__link_fs">Events & Corporates</a>
+                  <a href="#" class="footer__link_fs">Investments with HYR</a>
+                  <a href="#" class="footer__link_fs">Brand Promotions</a>
+                </div>
+              </div>
+              <div class="Footer__menu">
+                <h1 class="footer__heading_fs">Services</h1>
+                <div class="Footer__links">
+                  <a href="#" class="footer__link_fs">Cab Services in India</a>
+                  <a href="#" class="footer__link_fs">Bus Rentals in India</a>
+                  <a href="#" class="footer__link_fs"
+                    >Tempo Travellers in India</a
+                  >
+                  <a href="#" class="footer__link_fs">Holiday Packages</a>
+                </div>
+              </div>
+            </article>
+            <article class="Footer__support">
+              <h1 class="footer__heading_fs">Follow Us</h1>
+              <div class="Footer__social_group">
+                <a href="#" class="footer__social_links">
+                  <img
+                    src="./assets/icons/social/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+                <a href="#" class="f">
+                  <img
+                    src="./assets/icons/social/instagram.svg"
+                    alt="facebook"
+                  />
+                </a>
+                <a href="#" class="footer__social_links">
+                  <img src="./assets/icons/social/youtube.svg" alt="facebook" />
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="Footer__copyrights">
+          <p class="footer__copy_fs">
+            &copy; Copyright 2024 ・ HYR Technologies Private Limited, All
+            Rights Reserved.
+          </p>
+
+          <div class="Footer__support_page">
+            <a href="terms&condition.html" class="footer__copy_fs"
+              >Terms & Conditions</a
+            >
+            <a href="privacypolicy.html" class="footer__copy_fs"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/menu.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1200,
+      });
+    </script>
+
+    <script>
+      const header = document.getElementById("header");
+
+      window.addEventListener("scroll", onScroll);
+
+      function onScroll() {
+        if (window.scrollY >= 100) {
+          header.classList.add("bg_added");
+        } else {
+          header.classList.remove("bg_added");
+        }
+      }
+    </script>
+  </body>
+</html>
