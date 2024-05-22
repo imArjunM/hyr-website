@@ -610,7 +610,7 @@ body {
     width: 100%;
     background-color: #fff;
     border-radius: 0 0 0.75rem 0.75rem;
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -636,6 +636,17 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  .hyr_section_space {
+    padding: 1.5rem 0;
+  }
+
+  .hyr_section_top_space {
+    padding-top: 3rem;
+  }
+
+  .hyr_section_bottom_space {
+    padding-bottom: 3rem;
   }
 }
 
@@ -945,8 +956,8 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .Feature__banner {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: 0.45rem;
     background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -955,7 +966,7 @@ body {
     justify-content: center;
   }
   .Feature__banner > img {
-    width: 1.75rem;
+    width: 2.125rem;
     object-fit: contain;
   }
 }

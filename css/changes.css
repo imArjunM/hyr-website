@@ -108,7 +108,11 @@
 
 @media screen and (max-width: 586px) {
   .mobile_card {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   .desktop_card {
     display: none;
@@ -125,4 +129,17 @@
   .only__desktop {
     display: none;
   }
+
+  .Showcase__content_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75rem !important;
+    padding-top: 6.5rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+
 }
