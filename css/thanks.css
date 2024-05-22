@@ -1,0 +1,81 @@
+.Thanks {
+  width: 100%;
+  background: url("../assets/images/about/notes-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 4rem 0;
+}
+
+.Thanks__layout_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.thanks__heading_fs {
+  font-size: var(--hyr_subtitle_fs);
+  font-weight: 700;
+  color: var(--hyr_white_color);
+  line-height: 1.5;
+}
+.thanks__body_fs {
+  font-size: var(--hyr_tiny_fs);
+  font-weight: 400;
+  color: #ebeaf0;
+  line-height: 1.65;
+  text-align: left;
+}
+.thanks__quotes_fs {
+  font-size: var(--hyr_body_fs);
+  font-weight: 600;
+  color: #ecf76d;
+  line-height: 1.75;
+}
+
+.Thanks__content_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+.Thanks__quotes_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quotes__author_wrapper {
+  width: 100%;
+}
+.quotes__author {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+.author__sign_fs {
+  font-size: var(--hyr_heading_fs);
+  font-weight: 700;
+  color: var(--hyr_white_color);
+  line-height: 1.5;
+}
+.author__designation_fs {
+  font-size: var(--hyr_tiny_fs);
+  font-weight: 400;
+  color: #ebeaf0;
+  line-height: 1.75;
+}
+
+@media screen and (max-width: 786px) {
+  .Thanks__layout_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .Thanks__layout_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

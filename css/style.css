@@ -2,6 +2,7 @@
 
 @import url("./page.css");
 @import url("./changes.css");
+@import url("./thanks.css");
 
 :root {
   --hyr_theme_font_family: "Montserrat", sans-serif;
