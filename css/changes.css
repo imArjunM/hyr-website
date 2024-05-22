@@ -1,0 +1,121 @@
+.Features {
+  background-color: var(--hyr_theme_primary_color);
+}
+
+.Origin__layout_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+}
+.Origin__content_area {
+  width: 100%;
+}
+.Origin__image_area {
+  width: 100%;
+}
+
+.origin_banner {
+  width: 100%;
+  min-height: 20rem;
+  border-radius: 1rem;
+}
+
+.displayStats__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25rem;
+  padding-top: 2rem;
+}
+.displayStats__card {
+  padding: 1rem;
+  background-color: #1572d3;
+  color: #fff;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.Analytics__number {
+  font-size: var(--hyr_subtitle_fs);
+  font-weight: 700;
+  color: var(--hyr_white_color);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+}
+.Analytics__number > span {
+  font-size: var(--hyr_heading_fs);
+}
+.Analytics__Info {
+  font-size: var(--hyr_tiny_fs);
+  font-weight: 500;
+  color: var(--hyr_white_color);
+  white-space: nowrap;
+}
+
+.Origin__image_container {
+  position: relative;
+}
+
+.circular_spinner {
+  width: 6rem;
+  height: auto;
+  position: absolute;
+  top: 5rem;
+  left: -3rem;
+}
+
+.mobile_card {
+  display: none;
+}
+.desktop_card {
+  display: block;
+}
+
+@media screen and (max-width: 886px) {
+  .Origin__layout_grid {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 3rem;
+  }
+  .displayStats__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.25rem;
+    padding-top: 2rem;
+  }
+  .origin_banner {
+    width: 100%;
+    max-width: 30rem;
+    min-height: 20rem;
+    border-radius: 1rem;
+  }
+  .circular_spinner {
+    width: 5rem;
+    height: auto;
+    position: absolute;
+    left: 1.5rem;
+    top: 17rem;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .mobile_card {
+    display: block;
+  }
+  .desktop_card {
+    display: none;
+  }
+  .displayStats__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    padding-top: 1rem;
+  }
+  .displayStats__card {
+    padding: 1rem 2rem;
+  }
+}

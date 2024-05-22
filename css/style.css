@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import url("./page.css");
+@import url("./changes.css");
 
 :root {
   --hyr_theme_font_family: "Montserrat", sans-serif;
@@ -283,7 +284,7 @@ body {
   :root {
     --hyr_bigTitle_fs: 3rem;
     --hyr_bigSubTitle_fs: 1.5rem;
-    --hyr_title_fs: 2.25rem;
+    --hyr_title_fs: 2rem;
     --hyr_subtitle_fs: 1.5rem;
     --hyr_heading_fs: 1.25rem;
     --hyr_subheading_fs: 1.125rem;
@@ -794,22 +795,6 @@ body {
   text-align: center;
   gap: 1rem;
 }
-.Analytics__number {
-  font-size: var(--hyr_title_fs);
-  font-weight: 700;
-  color: var(--hyr_white_color);
-  display: flex;
-  align-items: flex-start;
-  gap: 0.65rem;
-}
-.Analytics__number > span {
-  font-size: var(--hyr_heading_fs);
-}
-.Analytics__Info {
-  font-size: var(--hyr_subheading_fs);
-  font-weight: 600;
-  color: var(--hyr_white_color);
-}
 
 /* Downloads */
 .Downloads__grid_layout {
@@ -919,7 +904,8 @@ body {
   width: 5rem;
   height: 5rem;
   border-radius: 0.45rem;
-  background-color: var(--hyr_theme_primary_color);
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -944,7 +930,8 @@ body {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 0.45rem;
-    background-color: var(--hyr_theme_primary_color);
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
     align-items: center;
     justify-content: center;
