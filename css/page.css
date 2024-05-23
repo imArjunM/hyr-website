@@ -32,6 +32,11 @@
     center;
   background-size: cover;
 }
+.about__banner {
+  width: 100%;
+  background: url("../assets/images/showcase/Showcase.jpg") no-repeat center;
+  background-size: cover;
+}
 .events__cover {
   width: 100%;
   background: url("../assets/images/supportPages/events-cover.jpg") no-repeat

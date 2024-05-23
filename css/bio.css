@@ -1,0 +1,35 @@
+.Bio__layout_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+}
+.Bio__image_area {
+  width: 100%;
+}
+.Bio__image_container {
+  width: 100%;
+}
+.Bio_banner {
+  width: 100%;
+  min-height: 20rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 886px) {
+  .Bio__layout_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .Bio__layout_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 3rem;
+  }
+}
