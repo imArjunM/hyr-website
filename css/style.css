@@ -1176,7 +1176,9 @@ body {
   /* transform: translateY(-50%); */
   width: 70%;
 }
-
+.Services {
+  padding: 4rem 0;
+}
 @media screen and (max-width: 786px) {
   .Services__grid_layout {
     display: grid;
@@ -1190,17 +1192,46 @@ body {
     flex-direction: column;
     flex-shrink: 0;
     gap: 1.25rem;
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 2rem 1.25rem;
     /* background-color: #065f46; */
     /* background-color: #ecf5ff; */
     border-radius: 0.45rem;
   }
-  /* .Services__content > h1 {
+  .Services__content > h1 {
     color: #fff !important;
   }
   .Services__content > p {
-    color: #ddd !important;
-  } */
+    color: #fafafa !important;
+  }
+  .Services__banner > i {
+    font-size: 1.35rem;
+    color: #fff;
+    object-fit: contain;
+  }
+  .Services_card.card1 {
+    background-color: #1fb2af;
+  }
+  .Services_card.card1 > .Services__banner {
+    background-color: #55d1cf;
+  }
+  .Services_card.card2 {
+    background-color: #08966d;
+  }
+  .Services_card.card2 > .Services__banner {
+    background-color: #4bb094;
+  }
+  .Services_card.card3 {
+    background-color: #0680c1;
+  }
+  .Services_card.card3 > .Services__banner {
+    background-color: #57a8d3;
+  }
+  .Services_card.card4 {
+    background-color: #f89340;
+  }
+  .Services_card.card4 > .Services__banner {
+    background-color: #fab47e;
+  }
 }
 
 /* Showcase */
@@ -1307,5 +1338,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .Services {
+    padding: 0rem 0 3rem 0;
   }
 }

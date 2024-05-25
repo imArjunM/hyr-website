@@ -152,4 +152,7 @@
     padding-top: 6.5rem !important;
     padding-bottom: 3rem !important;
   }
+  .Services {
+    background-color: var(--hyr_theme_primary_color);
+  }
 }
