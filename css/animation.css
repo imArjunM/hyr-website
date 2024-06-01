@@ -1,0 +1,102 @@
+.circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: anim 10s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.text span {
+  position: absolute;
+  left: 50%;
+  font-size: 0.925rem;
+  transform-origin: 0 70px;
+  letter-spacing: 3px;
+}
+
+/* Offers */
+.Offers {
+  width: 100%;
+  min-height: 27rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.Offers__slider {
+  display: flex;
+  width: 300%;
+  animation: slide 15s infinite;
+}
+
+.Offers__slide {
+  width: 100%;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+  min-height: 28rem;
+}
+
+.slide1 {
+  background: url("../assets/images/showcase/Showcase.jpg") no-repeat center;
+  background-size: cover;
+}
+.slide2 {
+  background: url("../assets/images/offers/offers_banner.jpg") no-repeat center;
+  background-size: cover;
+}
+.slide3 {
+  background: url("../assets/images/supportPages/corporate-banner.jpg")
+    no-repeat center;
+  background-size: cover;
+}
+
+@keyframes slide {
+  0%,
+  20%,
+  100% {
+    transform: translateX(0);
+  }
+  33.33%,
+  53.33% {
+    transform: translateX(-100%);
+  }
+  66.66%,
+  86.66% {
+    transform: translateX(-200%);
+  }
+}
+
+.Offers__section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Offers__content_wrapper {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}

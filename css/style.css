@@ -6,6 +6,8 @@
 
 @import url("./bio.css");
 
+@import url("animation.css");
+
 :root {
   --hyr_theme_font_family: "Montserrat", sans-serif;
   --hyr_primary_color: #1572d3;
@@ -1106,15 +1108,6 @@ body {
     padding: 1rem;
     margin: 0 1rem;
   }
-}
-
-/* Offers */
-.Offers {
-  width: 100%;
-  min-height: 27rem;
-  background: url("../../../assets/images/offers/offers_banner.jpg") no-repeat
-    center;
-  background-size: cover;
 }
 
 /* Services */
