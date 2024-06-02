@@ -100,3 +100,69 @@
   color: white;
   text-align: center;
 }
+
+.swiper {
+  width: 100%;
+  height: 450px;
+}
+
+.tourskart__slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5rem 0;
+}
+/* .tourskart__slider_content {
+} */
+
+.tour__title_fs {
+  width: 100%;
+  max-width: 45rem;
+  font-size: var(--hyr_title_fs);
+  font-weight: 700;
+  color: var(--hyr_white_color);
+  line-height: 1.5;
+}
+.tour__title_fs > a > span {
+  color: rgb(255, 214, 148);
+}
+
+.tourskart__slide.slider_image1 {
+  background: linear-gradient(
+      102.17deg,
+      rgba(26, 25, 33, 0.76) 6.5%,
+      rgba(51, 56, 75, 0.569) 42.52%,
+      rgba(21, 31, 66, 0.51) 52.61%,
+      rgba(21, 34, 74, 0.604157) 61.37%,
+      rgba(29, 36, 51, 0.8) 100%
+    ),
+    url("../assets/images/slider/tour1.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.tourskart__slide.slider_image2 {
+  background: linear-gradient(
+      102.17deg,
+      rgba(26, 25, 33, 0.76) 6.5%,
+      rgba(51, 56, 75, 0.569) 42.52%,
+      rgba(21, 31, 66, 0.51) 52.61%,
+      rgba(21, 34, 74, 0.604157) 61.37%,
+      rgba(29, 36, 51, 0.8) 100%
+    ),
+    url("../assets/images/slider/tour2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.tourskart__slide.slider_image3 {
+  background: linear-gradient(
+      102.17deg,
+      rgba(26, 25, 33, 0.76) 6.5%,
+      rgba(51, 56, 75, 0.569) 42.52%,
+      rgba(21, 31, 66, 0.51) 52.61%,
+      rgba(21, 34, 74, 0.604157) 61.37%,
+      rgba(29, 36, 51, 0.8) 100%
+    ),
+    url("../assets/images/slider/tour3.jpg") center no-repeat;
+  background-size: cover;
+}

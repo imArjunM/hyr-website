@@ -22,6 +22,11 @@
 
     <!-- AOS Lib -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -213,7 +218,7 @@
               <div class="Origin__image_container">
                 <img
                   class="origin_banner"
-                  src="./assets/images/about/home-about.jpg"
+                  src="./assets/images/about/home-about2.jpg"
                   alt="Home About"
                 />
                 <a href="aboutus.html">
@@ -578,7 +583,7 @@
     </section>
 
     <!-- Offers Section -->
-    <section class="Offers hyr_section_top_space hyr_section_bottom_space">
+    <!-- <section class="Offers hyr_section_top_space hyr_section_bottom_space">
       <div class="Offers__slider">
         <div class="Offers__slide slide1"></div>
         <div class="Offers__slide slide2"></div>
@@ -592,14 +597,73 @@
           <p class="Downloads__body_fs mi_white">Check out our tour packages</p>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="tourskart__slide slider_image1">
+            <div class="hyr_page_container">
+              <div class="tourskart__slider_content">
+                <div class="Downloads__content_wrapper center_align">
+                  <h1 class="tour__title_fs" data-aos="fade-in">
+                    Discover our Tour Packages and elevate your travel
+                    experience with our
+                    <a href="https://www.tourskart.com/" target="_blank"
+                      ><span>Tourskart</span></a
+                    >
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="tourskart__slide slider_image2">
+            <div class="hyr_page_container">
+              <div class="tourskart__slider_content">
+                <div class="Downloads__content_wrapper center_align">
+                  <h1 class="tour__title_fs" data-aos="fade-in">
+                    Explore our Tour Packages and embark on an unforgettable
+                    adventure with our
+                    <a href="https://www.tourskart.com/" target="_blank"
+                      ><span>Tourskart</span></a
+                    >
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="tourskart__slide slider_image3">
+            <div class="hyr_page_container">
+              <div class="tourskart__slider_content">
+                <div class="Downloads__content_wrapper center_align">
+                  <h1 class="tour__title_fs" data-aos="fade-in">
+                    Uncover our Tour Packages and transform your journey into an
+                    extraordinary experience. with our
+                    <a href="https://www.tourskart.com/" target="_blank"
+                      ><span>Tourskart</span></a
+                    >
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
 
     <!-- Testimonial Section -->
     <section class="Testimonial hyr_section_top_space hyr_section_bottom_space">
       <div class="hyr_page_container">
         <div class="Testimonial__section">
           <div class="Testimonial__grid_layout">
-            <article class="Testimonial__grid_area" data-aos="fade-right">
+            <article class="Testimonial__grid_area">
               <div class="Downloads__content_wrapper">
                 <div class="Downloads_label">
                   <article class="section__title_label">
@@ -614,7 +678,7 @@
               </div>
             </article>
             <article class="Testimonial__reviews">
-              <div class="Testimonial__reviews_card" data-aos="fade-up">
+              <div class="Testimonial__reviews_card">
                 <div class="reviews_card__profile">
                   <div class="reviews_card__banner tone1"><h1>N</h1></div>
                   <div class="reviews_card__info">
@@ -628,7 +692,7 @@
                   that your site."
                 </p>
               </div>
-              <div class="Testimonial__reviews_card" data-aos="fade-up">
+              <div class="Testimonial__reviews_card">
                 <div class="reviews_card__profile">
                   <div class="reviews_card__banner tone2"><h1>C</h1></div>
                   <div class="reviews_card__info">
@@ -759,6 +823,19 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
     <script>
       AOS.init({
         offset: 200,
